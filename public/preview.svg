@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b9cbbd"/><stop offset="1" stop-color="#dce0c5"/></linearGradient>
+    <linearGradient id="road" x2="0" y2="1"><stop stop-color="#3d4441"/><stop offset="1" stop-color="#202725"/></linearGradient>
+    <linearGradient id="shade" x2="0" y2="1"><stop stop-color="#101914" stop-opacity=".05"/><stop offset="1" stop-color="#101914" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="frame" x2="0" y2="1"><stop stop-color="#b9cbbd"/><stop offset="8%" stop-color="#b9cbbd"/><stop offset="8.01%" stop-color="#516e4d"/><stop offset="100%" stop-color="#516e4d"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#frame)"/>
+  <g transform="translate(0 62.5)">
+  <rect width="1200" height="675" fill="#516e4d"/><rect width="1200" height="380" fill="url(#sky)"/>
+  <path d="M0 335 120 220 213 324 335 184 468 332 604 205 745 333 878 174 1025 332 1110 233 1200 322V415H0Z" fill="#809989"/>
+  <path d="M235 316 335 184 421 304 355 275 335 238 312 286Z M790 281 878 174 976 304 903 265 877 225 853 273Z" fill="#d8dfd0" opacity=".7"/>
+  <path d="M0 362Q170 330 314 375T603 361T910 381T1200 350V675H0Z" fill="#55724f"/>
+  <path d="M0 452Q194 360 388 413T703 395T1200 471V675H0Z" fill="#65805a"/>
+  <g fill="#254b35">
+    <path d="M26 373 59 295 92 373Z M42 349 59 268 77 349Z M104 383 136 298 168 383Z M147 371 176 286 204 371Z M997 369 1030 278 1063 369Z M1040 384 1074 285 1108 384Z M1112 362 1142 264 1175 362Z M881 375 909 296 941 375Z M746 363 775 280 806 363Z"/>
+    <path d="M65 431 90 368 117 431Z M178 421 208 333 236 421Z M1090 436 1118 351 1145 436Z M1017 421 1043 346 1070 421Z M849 435 878 344 907 435Z M304 422 330 352 357 422Z"/>
+  </g>
+  <g fill="#345c40"><path d="M18 535 53 430 88 535Z M73 516 102 428 131 516Z M151 530 185 426 219 530Z M1085 527 1118 420 1152 527Z M1150 526 1180 432 1210 526Z M941 528 973 429 1004 528Z M259 532 293 425 327 532Z M770 526 803 418 837 526Z"/></g>
+  <path d="M520 370C493 420 442 441 430 488 413 549 458 578 537 592L733 627Q850 642 946 676H1200V568Q1030 513 931 481 840 447 763 382Z" fill="#d8d2b8"/>
+  <path d="M539 372C512 423 468 444 457 488 443 535 482 557 550 570L742 603Q857 619 955 655H1200V588Q1034 542 943 510 846 474 778 383Z" fill="url(#road)"/>
+  <path d="M618 405C587 455 547 471 543 501 538 531 592 543 652 555L813 583Q928 605 1037 644" fill="none" stroke="#e5e0ce" stroke-width="5" stroke-dasharray="20 18"/>
+  <path d="M515 431 542 442 533 461 505 450Z M469 480 495 489 487 508 461 499Z M488 532 516 536 512 554 484 550Z M841 586 868 593 863 613 836 606Z M1012 626 1040 633 1035 653 1007 646Z" fill="#eb654d"/>
+  <path d="M520 370C493 420 442 441 430 488 413 549 458 578 537 592L733 627" fill="none" stroke="#f2eee1" stroke-width="5"/>
+  <ellipse cx="683" cy="554" rx="76" ry="19" fill="#111815" opacity=".33" filter="url(#shadow)"/>
+  <g transform="translate(674 498) rotate(11)">
+    <path d="M-55 17 -48-20Q-42-36-23-39H28Q46-35 52-17L59 16 51 31H-50Z" fill="#47c5d3" stroke="#172523" stroke-width="4"/>
+    <path d="M-35-17Q-28-30-13-30H23Q36-28 41-14L44-4H-39Z" fill="#98b8b1" stroke="#1b2825" stroke-width="3"/>
+    <path d="M-48 6H-37V14H-49Z M39 6H51V14H39Z" fill="#fff0c1"/><path d="M-52 22H-36V29H-51Z M38 22H53V29H38Z" fill="#ea5746"/>
+    <rect x="-54" y="-22" width="10" height="20" rx="4" fill="#151a18"/><rect x="44" y="-22" width="10" height="20" rx="4" fill="#151a18"/>
+  </g>
+  <rect width="1200" height="675" fill="url(#shade)"/>
+  <rect x="38" y="30" width="1124" height="62" rx="5" fill="#111a16" fill-opacity=".94"/>
+  <path d="M55 45H91L84 79H55Z" fill="#d3f45b"/><text x="63" y="67" font-family="Arial,sans-serif" font-weight="900" font-size="13" fill="#182017">RR</text>
+  <text x="105" y="62" font-family="Arial,sans-serif" font-size="20" font-weight="900" letter-spacing="2" fill="#f4f2e8">RIDGE RUN</text><text x="105" y="78" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="2" fill="#9aa69e">ARCADE MOTORSPORT</text>
+  <text x="938" y="66" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#d3f45b">PINE RIDGE · CIRCUIT 01</text>
+  <rect x="56" y="121" width="205" height="150" rx="5" fill="#101914" fill-opacity=".91" stroke="#aab4a6" stroke-opacity=".5"/>
+  <text x="73" y="147" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="2" fill="#aeb9ad">LIVE ORDER</text>
+  <text x="75" y="184" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#d3f45b">01</text><text x="112" y="184" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f4f2e8">PineRider</text><text x="217" y="184" font-family="Arial,sans-serif" font-size="10" fill="#aeb9ad">0.8km</text>
+  <path d="M73 198H243" stroke="#ffffff" stroke-opacity=".15"/><text x="75" y="225" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#f4f2e8">02</text><text x="112" y="225" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f4f2e8">RidgeRunner</text><text x="217" y="225" font-family="Arial,sans-serif" font-size="10" fill="#aeb9ad">0.9km</text>
+  <rect x="928" y="473" width="208" height="143" rx="6" fill="#101914" fill-opacity=".94" stroke="#89958a" stroke-opacity=".5"/>
+  <text x="952" y="530" font-family="Arial,sans-serif" font-size="53" font-weight="900" fill="#f4f2e8">184</text><text x="1058" y="530" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#aeb9ad">KM/H</text>
+  <text x="952" y="554" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1" fill="#aeb9ad">ARCADE DRIVE · P1</text><text x="952" y="583" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1" fill="#d3f45b">NITRO</text><rect x="952" y="592" width="155" height="5" fill="#d3f45b"/>
+  <rect x="38" y="633" width="1124" height="1" fill="#e8eee3" fill-opacity=".35"/><text x="48" y="654" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="2" fill="#e5eadc">PINE RIDGE · LAP 1 / 1 · DRIFT + NITRO</text><text x="985" y="654" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1" fill="#d3f45b">FIND YOUR LINE.</text>
+  </g>
+</svg>
